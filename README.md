@@ -78,6 +78,14 @@ Edit `colors.toml` then re-set theme. Component files hardcode hex — search/re
 grep -rn '#FF0080\|#0D0010\|#FFD6EC' .
 ```
 
+## Extras
+
+Optional pink terminal toys (figlet, lolcat, cmatrix, hollywood, tte, etc.) — see [EXTRAS.md](EXTRAS.md). One-shot install:
+
+```bash
+bash scripts/install-extras.sh
+```
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
