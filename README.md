@@ -66,6 +66,23 @@ yay -S yaru-icon-theme
 code --install-extension BeardedBear.beardedtheme
 ```
 
+## VSCode pink overrides
+
+Bearded theme alone leaves status bar / activity bar muted. For full pink editor, merge [vscode-settings.json](vscode-settings.json) into your VSCode user settings:
+
+1. `Ctrl+Shift+P` → "Preferences: Open User Settings (JSON)"
+2. Copy the `workbench.colorCustomizations` block from [vscode-settings.json](vscode-settings.json) into your settings file
+3. Save — colors apply instantly
+
+Or one-liner (overwrite caution — backs up first):
+
+```bash
+cp ~/.config/Code/User/settings.json ~/.config/Code/User/settings.json.bak
+cp vscode-settings.json ~/.config/Code/User/settings.json
+```
+
+Only safe if you have no other VSCode customizations. Otherwise hand-merge.
+
 ## Preview
 
 Set theme then lock screen / open terminal / open walker to see effect. Wallpaper auto-applies from `backgrounds/`.
