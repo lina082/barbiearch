@@ -35,6 +35,7 @@ Full 16-color palette in [colors.toml](colors.toml).
 - GTK — [gtk.css](gtk.css)
 - VSCode — [vscode.json](vscode.json) (uses `BeardedBear.beardedtheme` → "Bearded Theme Vivid Strawberry")
 - Icons — [icons.theme](icons.theme) (`Yaru-magenta`)
+- Brave / Chromium — [chromium.theme](chromium.theme) (RGB tuple consumed by `omarchy-theme-set-browser`)
 - Wallpapers — [backgrounds/](backgrounds/)
 
 ## Install
@@ -106,15 +107,21 @@ Optional pink terminal toys (figlet, lolcat, cmatrix, hollywood, tte, etc.) — 
 bash scripts/install-extras.sh
 ```
 
-## Brave / Chromium browser theme
+## Brave / Chromium browser
 
-Custom Chromium theme extension matching the rice — see [brave-theme/](brave-theme/). Quick install:
+Omarchy themes browsers via managed policy, not extensions. The [chromium.theme](chromium.theme) file holds the accent RGB (`255,0,128`). On `omarchy-theme-set barbiearch`, Omarchy writes `/etc/brave/policies/managed/color.json` and `/etc/chromium/policies/managed/color.json` automatically.
 
-1. `brave://extensions` → Developer mode ON
-2. **Load unpacked** → select `brave-theme/` folder
-3. Browser turns pink
+Apply / refresh manually:
 
-Full instructions in [brave-theme/README.md](brave-theme/README.md).
+```bash
+omarchy-theme-set-browser
+# or just re-set the whole theme:
+omarchy-theme-set barbiearch
+```
+
+Restart Brave/Chromium for the policy to fully reload.
+
+> Custom unpacked extensions are blocked by Omarchy's Brave policy — that's why we color via the managed-policy path instead.
 
 ## Discovery
 
