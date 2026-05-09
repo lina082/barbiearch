@@ -106,6 +106,16 @@ Optional pink terminal toys (figlet, lolcat, cmatrix, hollywood, tte, etc.) — 
 bash scripts/install-extras.sh
 ```
 
+## Brave / Chromium browser theme
+
+Custom Chromium theme extension matching the rice — see [brave-theme/](brave-theme/). Quick install:
+
+1. `brave://extensions` → Developer mode ON
+2. **Load unpacked** → select `brave-theme/` folder
+3. Browser turns pink
+
+Full instructions in [brave-theme/README.md](brave-theme/README.md).
+
 ## Discovery
 
 If you found this repo, please ⭐ star it so other women can find it too.
