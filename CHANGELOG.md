@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0 — 2026-05-06
+## 0.1.0 — 2026-05-09
 
-Initial release.
+Initial public release as `barbiearch` (originally `rog-pink`, May 6).
 
 - Full 16-color hot-pink palette
 - Hyprland borders, shadows, animations

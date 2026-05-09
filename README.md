@@ -1,6 +1,8 @@
-# rog-pink
+# barbiearch
 
-Hot-pink Omarchy theme. Deep magenta on near-black. ROG-inspired neon.
+Hot-pink Omarchy theme. Deep magenta on near-black. Barbiecore meets Arch.
+
+By **Lina Serna**.
 
 ![preview](backgrounds/wall_barbie.jpg)
 
@@ -36,24 +38,24 @@ Full 16-color palette in [colors.toml](colors.toml).
 ### Via Omarchy CLI (recommended)
 
 ```bash
-omarchy-theme-install https://github.com/<your-user>/rog-pink.git
-omarchy-theme-set rog-pink
+omarchy-theme-install https://github.com/<your-user>/barbiearch.git
+omarchy-theme-set barbiearch
 ```
 
 ### Manual
 
 ```bash
-git clone https://github.com/<your-user>/rog-pink.git \
-  ~/.config/omarchy/themes/rog-pink
-omarchy-theme-set rog-pink
+git clone https://github.com/<your-user>/barbiearch.git \
+  ~/.config/omarchy/themes/barbiearch
+omarchy-theme-set barbiearch
 ```
 
 Or quick-cycle with `SUPER + CTRL + SHIFT + SPACE`.
 
 ## Requirements
 
-- Omarchy ≥ current Hyprland-based release
-- GTK icon theme `Yaru` installed (provides `Yaru-magenta`)
+- Omarchy (Hyprland-based release)
+- GTK icon theme `Yaru` (provides `Yaru-magenta`)
 - VSCode extension `cval.pastel-theme` (optional, for editor)
 
 Install missing pieces:
@@ -69,11 +71,19 @@ Set theme then lock screen / open terminal / open walker to see effect. Wallpape
 
 ## Customize
 
-Edit `colors.toml` then re-set theme. All component files reference same palette — change once, propagate by reapplying.
+Edit `colors.toml` then re-set theme. Component files hardcode hex — search/replace to propagate:
+
+```bash
+grep -rn '#FF0080\|#0D0010\|#FFD6EC' .
+```
 
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Author
+
+**Lina Serna** — built this because every desktop deserves to be unapologetically pink. Made for women, femmes, and anyone tired of grayscale terminals.
 
 ## Credits
 
