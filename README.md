@@ -1,6 +1,7 @@
 # barbiearch
 
 Hot-pink Omarchy theme. Deep magenta on near-black. Barbiecore meets Arch.
+ For the girlies who love Linux and code 🩷
 
 By **Lina Serna**.
 
