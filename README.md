@@ -30,7 +30,7 @@ Full 16-color palette in [colors.toml](colors.toml).
 - Ghostty — [ghostty.conf](ghostty.conf)
 - btop — [btop.theme](btop.theme)
 - GTK — [gtk.css](gtk.css)
-- VSCode — [vscode.json](vscode.json) (uses `cval.pastel-theme`)
+- VSCode — [vscode.json](vscode.json) (uses `BeardedBear.beardedtheme` → "Bearded Theme Vivid Strawberry")
 - Icons — [icons.theme](icons.theme) (`Yaru-magenta`)
 - Wallpapers — [backgrounds/](backgrounds/)
 
@@ -57,13 +57,13 @@ Or quick-cycle with `SUPER + CTRL + SHIFT + SPACE`.
 
 - Omarchy (Hyprland-based release)
 - GTK icon theme `Yaru` (provides `Yaru-magenta`)
-- VSCode extension `cval.pastel-theme` (optional, for editor)
+- VSCode extension `BeardedBear.beardedtheme` (optional, for editor — select "Bearded Theme Vivid Strawberry")
 
 Install missing pieces:
 
 ```bash
 yay -S yaru-icon-theme
-code --install-extension cval.pastel-theme
+code --install-extension BeardedBear.beardedtheme
 ```
 
 ## Preview
