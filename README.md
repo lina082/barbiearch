@@ -38,14 +38,14 @@ Full 16-color palette in [colors.toml](colors.toml).
 ### Via Omarchy CLI (recommended)
 
 ```bash
-omarchy-theme-install https://github.com/<your-user>/barbiearch.git
+omarchy-theme-install https://github.com/lina082/barbiearch.git
 omarchy-theme-set barbiearch
 ```
 
 ### Manual
 
 ```bash
-git clone https://github.com/<your-user>/barbiearch.git \
+git clone https://github.com/lina082/barbiearch.git \
   ~/.config/omarchy/themes/barbiearch
 omarchy-theme-set barbiearch
 ```
