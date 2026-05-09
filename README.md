@@ -1,9 +1,12 @@
 # barbiearch
 
-Hot-pink Omarchy theme. Deep magenta on near-black. Barbiecore meets Arch.
- For the girlies who love Linux and code 🩷
+Hot-pink Omarchy **rice**. Full pink desktop: Hyprland, terminals, VSCode, notifications, lockscreen. Barbiecore meets Arch.
+
+For the girlies who love Linux and code 🩷
 
 By **Lina Serna**.
+
+> **Rice** = Linux slang for an opinionated, aesthetic-driven desktop customization (r/unixporn). This repo is a complete rice — drop it in, your whole system goes pink.
 
 ![preview](backgrounds/wall_barbie.jpg)
 
@@ -102,6 +105,17 @@ Optional pink terminal toys (figlet, lolcat, cmatrix, hollywood, tte, etc.) — 
 ```bash
 bash scripts/install-extras.sh
 ```
+
+## Discovery
+
+If you found this repo, please ⭐ star it so other women can find it too.
+
+GitHub topics on this repo: `omarchy`, `omarchy-theme`, `hyprland`, `rice`, `unixporn`, `linux-rice`, `pink`, `barbiecore`, `dotfiles`, `wayland`, `arch-linux`, `women-in-tech`.
+
+Share on:
+- r/unixporn (post a screenshot, link the repo)
+- r/archlinux (in showcase threads)
+- Your socials with `#linuxrice #unixporn #barbiecore`
 
 ## License
 
